@@ -287,7 +287,9 @@ button {
 .form .social-input i.fa-linkedin {
     color: #0077b5;
 }
-
+.table {
+    width: 100%;
+}
 .table th,
 .table td {
     padding: 1rem;
@@ -574,4 +576,10 @@ button {
     .post button {
         padding: 0.3rem 0.4rem;
     }
+}
+/* Animation Styles */
+@keyframes spin { 
+    100% { 
+        transform:rotate(360deg); 
+    } 
 }
